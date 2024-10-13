@@ -27,7 +27,7 @@ const BandaDetail = () => {
         {
           prods.map(p => (
             <div className="banda-detail-card">
-              <img src={`/images/${p.img}`} alt="" height={"260px"} width={"100%"} style={{objectFit: "contain"}} />
+              <img src={`/images/${p.img}`} alt="" />
               <h5>{p.description}</h5>
               <h5>{p.stock}</h5>
               <h5>{p.precio}</h5>
