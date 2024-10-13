@@ -12,6 +12,10 @@
   transition: all ease-in-out .3s;
 }
 
+.banda-detail-card img{
+  height: 350px;
+}
+
 .banda-detail-card:hover {
   background-color: white;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
