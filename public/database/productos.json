@@ -1,0 +1,299 @@
+[
+  {
+    "id": 1,
+    "banda": "BLINK182",
+    "img": "blink182.jfif",
+    "category": "ropa",
+    "stock": 20,
+    "description": "blink 182 - Poster de regalo (envios gratis a partir de S/. 70)",
+    "precio": 56.70
+  },
+  {
+    "id": 2,
+    "banda": "DEFTONES",
+    "img": "deftones.jpg",
+    "category": "ropa",
+    "stock": 15,
+    "description": "Deftones - Poster de regalo (envios gratis a partir de S/. 70)",
+    "precio": 45.70
+  },
+  { 
+    "id": 3,
+    "banda": "GREENDAY",
+    "img": "greenday.avif",
+    "category": "ropa",
+    "stock": 9,
+    "description": "Green Day - Poster de regalo (envios gratis a partir de S/. 70)",
+    "precio": 71.50
+  },
+  { 
+    "id": 4,
+    "banda": "GUNS AND ROSES",
+    "img": "guns.jpg",
+    "category": "ropa",
+    "stock": 17,
+    "description": "Guns and Roses - Poster de regalo (envios gratis a partir de S/. 70)",
+    "precio": 50.60
+  },
+  { 
+    "id": 5,
+    "banda": "METALLICA",
+    "img": "metallica.png",
+    "category": "ropa",
+    "stock": 18,
+    "description": "Metallica - Poster de regalo (envios gratis a partir de S/. 70)",
+    "precio": 62.90
+  },
+  { 
+    "id": 6,
+    "banda": "RAMMSTEIN",
+    "img": "rammstein.avif",
+    "category": "ropa",
+    "stock": 23,
+    "description": "Rammstein - Poster de regalo (envios gratis a partir de S/. 70)",
+    "precio": 48.40
+  },
+  { 
+    "id": 7,
+    "banda": "SYSTEMOFADOWN",
+    "img": "soad.avif",
+    "category": "ropa",
+    "stock": 7,
+    "description": "System of a down - Poster de regalo (envios gratis a partir de S/. 70)",
+    "precio": 68.50
+  },
+  { 
+    "id": 8,
+    "banda": "THREEDAYSGRACE",
+    "img": "tdg.webp",
+    "category": "ropa",
+    "stock": 5,
+    "description": "Three Days Grace - Poster de regalo (envios gratis a partir de S/. 70)",
+    "precio": 57.80
+  },
+  {
+    "id": 9,
+    "banda": "NIRVANA",
+    "img": "nirvana.webp",
+    "category": "ropa",
+    "stock": 10,
+    "description": "Nirvana - Poster de regalo (envios gratis a partir de S/. 70)",
+    "precio": 48.20
+  },
+  { 
+    "id": 10,
+    "banda": "THEPOLICE",
+    "img": "thepolice.avif",
+    "category": "ropa",
+    "stock": 28,
+    "description": "The Police - Poster de regalo (envios gratis a partir de S/. 70)",
+    "precio": 82.90
+  },
+  { 
+    "id": 11,
+    "banda": "GOLDFINGER",
+    "img": "goldfinger.jpg",
+    "category": "ropa",
+    "stock": 9,
+    "description": "Goldfinger - Poster de regalo (envios gratis a partir de S/. 70)",
+    "precio": 40.20
+  },
+  {
+    "id": 12,
+    "banda": "FOOFIGHTERS",
+    "img": "foo.webp",
+    "category": "ropa",
+    "stock": 13,
+    "description": "Foo Fighters - Poster de regalo (envios gratis a partir de S/. 70)",
+    "precio": 60.20
+  },
+  {
+    "id": 13,
+    "banda": "LINKINPARK",
+    "img": "linkinpark.png",
+    "category": "ropa",
+    "stock": 20,
+    "description": "Linkin Park - Poster de regalo (envios gratis a partir de S/. 70)",
+    "precio": 72.20
+  },
+  {
+    "id": 14,
+    "banda": "THEKILLERS",
+    "img": "tekillers.webp",
+    "category": "ropa",
+    "stock": 21,
+    "description": "The Killers - Poster de regalo (envios gratis a partir de S/. 70)",
+    "precio": 48.20
+  },
+  {
+    "id": 15,
+    "banda": "REDHOTCHILIPEPPERS",
+    "img": "redhot.webp",
+    "category": "ropa",
+    "stock": 3,
+    "description": "Red hot chili peppers - Poster de regalo (envios gratis a partir de S/. 70)",
+    "precio": 65.20
+  },
+  {
+    "id": 16,
+    "banda": "ACDC",
+    "img": "acdc.jpg",
+    "category": "ropa",
+    "stock": 28,
+    "description": "AC/DC - Poster de regalo (envios gratis a partir de S/. 70)",
+    "precio": 48.20
+  },
+  {
+    "id": 17,
+    "banda": "THESTROKES",
+    "img": "thestrokes.webp",
+    "category": "ropa",
+    "stock": 12,
+    "description": "The strokes - Poster de regalo (envios gratis a partir de S/. 70)",
+    "precio": 33.20
+  },
+  {
+    "id": 18,
+    "banda": "MISFITS",
+    "img": "misfits.jpg",
+    "category": "ropa",
+    "stock": 29,
+    "description": "Misfits - Poster de regalo (envios gratis a partir de S/. 70)",
+    "precio": 48.20
+  },
+  {
+    "id": 19,
+    "banda": "SABATON",
+    "img": "C4.webp",
+    "stock": 5,
+    "category": "vinilo",
+    "description": "Sabaton - Carolus Rex (Swedish Edition) Blue/Yellow(envios gratis a partir de S/. 70)",
+    "precio": 76.8
+  },
+  {
+    "id": 20,
+    "banda": "DIMMUBORGIR",
+    "img": "C5.webp",
+    "stock": 7,
+    "category": "vinilo",
+    "description": "Dimmu Borgir - Northern Forces Over Wacken Ltd. Black/Green(envios gratis a partir de S/. 70)",
+    "precio": 68.5
+  },
+  {
+    "id": 21,
+    "banda": "ANTHRAX",
+    "img": "C1.webp",
+    "stock": 3,
+    "category": "vinilo",
+    "description": "System of a down - Poster de regalo (envios gratis a partir de S/. 70)",
+    "precio": 73.8
+  },
+  {
+    "id": 22,
+    "banda": "NIGHTWISH",
+    "img": "C2.webp",
+    "stock": 7,
+    "category": "vinilo",
+    "description": "Nightwish - Imaginaerum Clear/Gold/White Ltd. - Splatter 2 Vinyl(envios gratis a partir de S/. 70)",
+    "precio": 83.5
+  },
+  {
+    "id": 23,
+    "banda": "BLINDGUARDIAN",
+    "img": "CD1.webp",
+    "stock": 7,
+    "category": "CD",
+    "description": "Blind Guardian - Somewhere Far Beyond Revisited(envios gratis a partir de S/. 70)",
+    "precio": 50.8
+  },
+  {
+    "id": 24,
+    "banda": "FLESHGODAPOCALYPSE",
+    "img": "CD2.webp",
+    "stock": 2,
+    "category": "CD",
+    "description": "Fleshgod Apocalypse - Opera - CD- Poster de regalo (envios gratis a partir de S/. 70)",
+    "precio": 62.3
+  },
+  {
+    "id": 25,
+    "banda": "WINTERSUN",
+    "img": "CD3.webp",
+    "stock": 11,
+    "category": "CD",
+    "description": "New Edition - Wintersun - Time II - CD- Poster de regalo (envios gratis a partir de S/. 70)",
+    "precio": 55.8
+  },
+  {
+    "id": 26,
+    "banda": "MARILYNMANSON",
+    "img": "CD4.webp",
+    "stock": 11,
+    "category": "CD",
+    "description": "Marilyn Manson - One Assassination Under God(envios gratis a partir de S/. 70)",
+    "precio": 90.8
+  },
+  {
+    "id": 27,
+    "banda": "GREENDAY",
+    "img": "CD-green.webp",
+    "stock": 11,
+    "category": "CD",
+    "description": "Green day - One Assassination Under God(envios gratis a partir de S/. 70)",
+    "precio": 63.8
+  },
+  {
+    "id": 28,
+    "banda": "METALLICA",
+    "img": "CD-metallica.png",
+    "stock": 16,
+    "category": "CD",
+    "description": "Metallica - One Assassination Under God(envios gratis a partir de S/. 70)",
+    "precio": 72.8
+  },
+  {
+    "id": 29,
+    "banda": "ANTHRAX",
+    "img": "anthrax.webp",
+    "category": "ropa",
+    "stock": 11,
+    "description": "Anthrax - Poster de regalo (envios gratis a partir de S/. 70)",
+    "precio": 58.20
+  },
+  {
+    "id": 30,
+    "banda": "SKILLET",
+    "img": "CD-skillet.webp",
+    "category": "CD",
+    "stock": 18,
+    "description": "Skillet - Poster de regalo (envios gratis a partir de S/. 70)",
+    "precio": 62.50
+  },
+  {
+    "id": 31,
+    "banda": "SYSTEMOFADOWN",
+    "img": "CD-soad.webp",
+    "category": "CD",
+    "stock": 8,
+    "description": "System of a down - Poster de regalo (envios gratis a partir de S/. 70)",
+    "precio": 75.90
+  },
+  {
+    "id": 32,
+    "banda": "ACDC",
+    "img": "CD-acdc.webp",
+    "category": "CD",
+    "stock": 13,
+    "description": "AC/DC - Poster de regalo (envios gratis a partir de S/. 70)",
+    "precio": 49.90
+  },
+  {
+    "id": 33,
+    "banda": "THECURE",
+    "img": "polo-thecure.webp",
+    "category": "ropa",
+    "stock": 32,
+    "description": "The cure - Poster de regalo (envios gratis a partir de S/. 70)",
+    "precio": 52.30
+  }
+]

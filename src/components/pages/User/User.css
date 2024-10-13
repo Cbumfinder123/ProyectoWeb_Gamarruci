@@ -1,0 +1,13 @@
+input {
+  padding: 2px;
+}
+
+form {
+  padding: 20px;
+  text-align: center;
+  transition: all ease-in-out .3s;
+}
+
+form:hover {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
