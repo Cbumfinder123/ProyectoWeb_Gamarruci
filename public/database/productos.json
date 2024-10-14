@@ -295,5 +295,14 @@
     "stock": 32,
     "description": "The cure - Poster de regalo (envios gratis a partir de S/. 70)",
     "precio": 52.30
+  },
+  {
+    "id": 34,
+    "banda": "BLINK182",
+    "img": "CD-blink.jpg",
+    "category": "CD",
+    "stock": 10,
+    "description": "Blink 182 - Poster de regalo (envios gratis a partir de S/. 70)",
+    "precio": 68.70
   }
 ]

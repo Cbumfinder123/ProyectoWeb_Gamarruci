@@ -28,12 +28,14 @@ const Bands = () => {
 
   const images1 = [
     'images/log1.png', 'images/log2.png', 'images/log3.png', 'images/log4.png', 
-    'images/log5.png', 'images/log6.png', 'images/log7.png', 'images/log8.png'
+    'images/log5.png', 'images/log6.png', 'images/log7.png', 'images/log8.png',
+    'images/logo-blink.png'
   ];
   
   const urls1 = [
     '/deftones', '/greenday', '/acdc', '/threedaysgrace', 
-    '/metallica', '/thecure', '/skillet', '/systemofadown'
+    '/metallica', '/thecure', '/skillet', '/systemofadown',
+    '/blink182'
   ];
 
   const images2 = [

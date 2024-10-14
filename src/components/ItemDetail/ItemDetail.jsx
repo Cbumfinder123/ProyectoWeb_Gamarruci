@@ -95,7 +95,7 @@ const ItemDetail = () => {
           <img className="item-detail" src={`/images/${prodItem.img}`} alt=""/>
         </div>
         <div className="container-desc">
-          <h4 className="desc"><strong>{prodItem.description}</strong></h4>
+          <h4 className="desc">{prodItem.description}</h4>
           <h3>Precio: S/. {prodItem.precio} <i class="bi bi-cash" style={{color: "green", fontSize: "30px"}}></i></h3>
           <div style={{display: "flex", flexDirection: "column", gap: "25px", alignItems: "center"}}>
             <Link className="btn btn-dark" onClick={addCart}>Agregar al carrito</Link>

@@ -29,8 +29,8 @@ const BandaDetail = () => {
             <div className="banda-detail-card">
               <img src={`/images/${p.img}`} alt="" />
               <h5>{p.description}</h5>
-              <h5>{p.stock}</h5>
-              <h5>{p.precio}</h5>
+              <h5>Stock: {p.stock}</h5>
+              <h5>S/. {p.precio}</h5>
               <Link to={`/producto/${p.id}`} className="btn btn-dark">Buy now</Link>
             </div>
           ))

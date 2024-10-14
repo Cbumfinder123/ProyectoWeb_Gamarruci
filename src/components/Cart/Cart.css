@@ -35,7 +35,7 @@
   height: 200px;
 }
 
-@media (max-width: 768px)  {
+/* @media (max-width: 768px)  {
 
   .container-cart {
     display: flex;
@@ -82,4 +82,4 @@
     right: 10px;
     left: 10px;
   }
-}
+} */

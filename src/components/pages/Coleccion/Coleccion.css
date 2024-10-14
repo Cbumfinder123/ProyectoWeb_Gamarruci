@@ -71,7 +71,7 @@ h3 {
 }
 
 
-@media (max-width: 768px) {
+/* @media (max-width: 768px) {
   .container-vinilos {
     display: flex;
     flex-direction: column;
@@ -85,4 +85,4 @@ h3 {
   .card-cd{
     width: 100%;
   }
-}
+} */
