@@ -20,7 +20,8 @@ const BanerB = () => {
     }, [images.length]);
 
     return (
-        <div class="parent-container">
+        <div class="parent-container" data-aos="fade-up"
+        data-aos-anchor-placement="top-bottom">
         <div className="banner-container">
             <img src={images[currentImage]} alt={`Publicidad ${currentImage + 1}`} className="banner-image" />
         </div>

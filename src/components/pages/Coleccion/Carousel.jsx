@@ -49,15 +49,21 @@ const Carousel = () => {
 
   return (
     <div className="carouselI">
-      {currentIndex > 0 && (
-        <button type="button" className="prev-buttonI" onClick={(e) => prevPage(e)}>←</button>
-      )}
+      {
+        currentIndex > 0 &&
+        (
+          <button type="button" className="prev-buttonI" onClick={(e) => prevPage(e)}>←</button>
+        )
+      }
       <div className="itemsI">
         {renderItems()}
       </div>
-      {currentIndex + itemsPerPage < totalItems && (
-        <button type="button" className="next-buttonI" onClick={(e) => nextPage(e)}>→</button>
-      )}
+      {
+        currentIndex + itemsPerPage < totalItems && 
+        (
+          <button type="button" className="next-buttonI" onClick={(e) => nextPage(e)}>→</button>
+        )
+      }
     </div>
   );
 };

@@ -22,7 +22,7 @@ const BannerC = () => {
   }, []);
 
   return (
-    <div className="carousel-container">
+    <div className="carousel-container" data-aos="zoom-in">
       <div
         className="carousel"
         style={{ transform: `translateX(-${currentImage * 100}%)` }}

@@ -27,7 +27,7 @@ const Coleccion = () => {
       <section className="container-vinilos">
         {
           productos.map(p => (
-            <div key={p.id} className="card-cd">
+            <div key={p.id} className="card-cd" data-aos="flip-left">
               <div style={{ overflow: "hidden" }}>
                 <img className="coleccion-img" src={`/images/${p.img}`} alt="" />
               </div>

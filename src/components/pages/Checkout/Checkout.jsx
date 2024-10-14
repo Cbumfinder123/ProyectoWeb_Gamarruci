@@ -11,7 +11,7 @@ const Checkout = () => {
 
   useEffect(() => {
 
-    if (total > 50) {
+    if (total > 70) {
 
       setEnvio(0);
     } else {
@@ -63,12 +63,20 @@ const Checkout = () => {
         <h2>S/. {total}</h2>
         <br />
         <h4>Detalles de compra</h4>
+        <h5>Envio:</h5>
+        <h5>S/. {envio} ( por compras mayores a S/. 70 envio gratis )</h5>
         <br />
-        <h5>Envio</h5>
-        <h5>S/. {envio} por compras mayores a S/. 70 envio gratis</h5>
+        <h5>Fecha de solicitud:</h5>
+        <h5>{date}</h5>
         <br />
-        <h5>Fecha de solicitud: {date}</h5>
         <h4>El total es S/. {total + envio}</h4>
+        <hr />
+        <div style={{display: "flex", gap: "10px", justifyContent: "center"}}>
+          <img className="pagos" src={`/images/plin-logo.png`} alt="plin" />
+          <img className="pagos" src={`/images/yape-logo.webp`} alt="yape" />
+          <img className="pagos" src={`/images/visa.png`} alt="Visa" />
+          <img className="pagos" src={`/images/mastercard.png`} alt="Mastercard" />
+        </div>
       </div>
     </div>
   )
