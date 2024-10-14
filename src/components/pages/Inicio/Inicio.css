@@ -98,7 +98,7 @@ form {
   gap: 10px;
 }
 
-/* @media (max-width: 768px) {
+@media (max-width: 768px) {
   .products-grid {
     display: grid;
     background-color: rgb(235, 235, 235);
@@ -122,4 +122,4 @@ form {
   .product-card p {
     font-size: 13px;
   }
-} */
+}

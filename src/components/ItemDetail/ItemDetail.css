@@ -36,7 +36,7 @@
   height: 50px;
 }
 
-/* @media (max-width: 768px) {
+@media (max-width: 768px) {
 
   .item-detail-prod {
     flex-direction: column;
@@ -53,4 +53,4 @@
     filter: grayscale(0);
     object-fit: contain;
   }
-} */
+}
