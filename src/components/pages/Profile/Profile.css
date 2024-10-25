@@ -1,0 +1,58 @@
+.profile-container {
+    background-color: #1e3a5f;
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+    max-width: 450px;
+    margin: 100px auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    position: relative;
+    color: #ffffff;
+  }
+  
+  .profile-container::before {
+    content: '';
+    position: absolute;
+    top: -60px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100px;
+    height: 100px;
+    background: url('https://img.freepik.com/vector-premium/retro-clasico-monograma-letra-g-plantilla-logotipo-vintage-arquitectura-decoracion-borde-marco-lujo_558854-881.jpg') no-repeat center center;
+    background-size: cover;
+    border-radius: 50%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border: 5px solid #0a63d8;
+  }
+  
+  .profile-title {
+    margin-top: 60px;
+    color: #ffffff;
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .profile-text {
+    font-size: 1.2rem;
+    color: #cfd8dc;
+    margin: 15px 0;
+  }
+  
+  .btn3-danger {
+    display: block;
+    background-color: #3949ab;
+    color: white;
+    padding: 12px 25px;
+    text-align: center;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 1.1rem;
+    margin: 25px auto;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn-danger:hover {
+    background-color: #283593;
+  }
+  

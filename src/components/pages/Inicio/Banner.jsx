@@ -17,7 +17,7 @@ const Carousel = () => {
       audio:'/music/deftones.mp3',
     },
     {
-      image: "/images/fondo2.jpg",
+      image: "/images/Fondo2.jpg",
       title: 'Three Day Grace',
       description: 'Three D Grace combina metal moderno con influencias armenias, ofreciendo letras poderosas y una energía arrolladora en el escenario.',
       audio:'/music/Animal.mp3',

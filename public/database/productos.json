@@ -2,145 +2,145 @@
   {
     "id": 1,
     "banda": "BLINK182",
-    "img": "blink182.jfif",
+    "img": "blink2.webp",
     "category": "ropa",
     "stock": 20,
-    "description": "blink 182 - Poster de regalo (envios gratis a partir de S/. 70)",
+    "description": "One More Time Tour Hoodie",
     "precio": 56.70
   },
   {
     "id": 2,
     "banda": "DEFTONES",
-    "img": "deftones.jpg",
+    "img": "def2.webp",
     "category": "ropa",
     "stock": 15,
-    "description": "Deftones - Poster de regalo (envios gratis a partir de S/. 70)",
-    "precio": 45.70
+    "description": "Embroidered Script Logo Hoodie",
+    "precio": 145.70
   },
   { 
     "id": 3,
     "banda": "GREENDAY",
-    "img": "greenday.avif",
+    "img": "green1.webp",
     "category": "ropa",
     "stock": 9,
-    "description": "Green Day - Poster de regalo (envios gratis a partir de S/. 70)",
-    "precio": 71.50
+    "description": "American Idiot XX Custom Shirt",
+    "precio": 171.50
   },
   { 
     "id": 4,
-    "banda": "GUNS AND ROSES",
-    "img": "guns.jpg",
+    "banda": "GREENDAY",
+    "img": "green2.webp",
     "category": "ropa",
     "stock": 17,
-    "description": "Guns and Roses - Poster de regalo (envios gratis a partir de S/. 70)",
+    "description": "American Idiot Custom Tote",
     "precio": 50.60
   },
   { 
     "id": 5,
     "banda": "METALLICA",
-    "img": "metallica.png",
+    "img": "meta1.jpg",
     "category": "ropa",
     "stock": 18,
-    "description": "Metallica - Poster de regalo (envios gratis a partir de S/. 70)",
+    "description": "Ride The Lightning T-Shirt",
     "precio": 62.90
   },
   { 
     "id": 6,
-    "banda": "RAMMSTEIN",
-    "img": "rammstein.avif",
+    "banda": "ACDC",
+    "img": "ac1.jpg",
     "category": "ropa",
     "stock": 23,
-    "description": "Rammstein - Poster de regalo (envios gratis a partir de S/. 70)",
+    "description": "Rosie Live in Europe T-Shirt",
     "precio": 48.40
   },
   { 
     "id": 7,
     "banda": "SYSTEMOFADOWN",
-    "img": "soad.avif",
+    "img": "soad1.webp",
     "category": "ropa",
     "stock": 7,
-    "description": "System of a down - Poster de regalo (envios gratis a partir de S/. 70)",
+    "description": "Self-Titled Red Hand Logo",
     "precio": 68.50
   },
   { 
     "id": 8,
     "banda": "THREEDAYSGRACE",
-    "img": "tdg.webp",
+    "img": "thr1.webp",
     "category": "ropa",
     "stock": 5,
-    "description": "Three Days Grace - Poster de regalo (envios gratis a partir de S/. 70)",
+    "description": "Three Days Grace Logo Tee",
     "precio": 57.80
   },
   {
     "id": 9,
-    "banda": "NIRVANA",
-    "img": "nirvana.webp",
+    "banda": "SYSTEMOFADOWN",
+    "img": "soad2.webp",
     "category": "ropa",
     "stock": 10,
-    "description": "Nirvana - Poster de regalo (envios gratis a partir de S/. 70)",
-    "precio": 48.20
+    "description": "Self-Titled Stacked Logo Hoodie",
+    "precio": 148.20
   },
   { 
     "id": 10,
-    "banda": "THEPOLICE",
-    "img": "thepolice.avif",
+    "banda": "SKILLET",
+    "img": "skillet.webp",
     "category": "ropa",
     "stock": 28,
-    "description": "The Police - Poster de regalo (envios gratis a partir de S/. 70)",
+    "description": "Skillet Phoenix T-Shirt",
     "precio": 82.90
   },
   { 
     "id": 11,
-    "banda": "GOLDFINGER",
-    "img": "goldfinger.jpg",
+    "banda": "SKILLET",
+    "img": "skillet2.webp",
     "category": "ropa",
     "stock": 9,
-    "description": "Goldfinger - Poster de regalo (envios gratis a partir de S/. 70)",
+    "description": "Exploding Head T-Shirt",
     "precio": 40.20
   },
   {
     "id": 12,
-    "banda": "FOOFIGHTERS",
-    "img": "foo.webp",
+    "banda": "SKILLET",
+    "img": "skillet3.webp",
     "category": "ropa",
     "stock": 13,
-    "description": "Foo Fighters - Poster de regalo (envios gratis a partir de S/. 70)",
+    "description": "Skillet Whispers T-Shirt",
     "precio": 60.20
   },
   {
     "id": 13,
-    "banda": "LINKINPARK",
-    "img": "linkinpark.png",
+    "banda": "DEFTONES",
+    "img": "Des1.webp",
     "category": "ropa",
     "stock": 20,
-    "description": "Linkin Park - Poster de regalo (envios gratis a partir de S/. 70)",
+    "description": "Shirt Classic logo",
     "precio": 72.20
   },
   {
     "id": 14,
-    "banda": "THEKILLERS",
-    "img": "tekillers.webp",
+    "banda": "ACDC",
+    "img": "Des2.webp",
     "category": "ropa",
     "stock": 21,
-    "description": "The Killers - Poster de regalo (envios gratis a partir de S/. 70)",
+    "description": "Hell's Bells 1980",
     "precio": 48.20
   },
   {
     "id": 15,
-    "banda": "REDHOTCHILIPEPPERS",
-    "img": "redhot.webp",
+    "banda": "NIRVANA",
+    "img": "Des3.webp",
     "category": "ropa",
     "stock": 3,
-    "description": "Red hot chili peppers - Poster de regalo (envios gratis a partir de S/. 70)",
+    "description": "Black Shirt logo",
     "precio": 65.20
   },
   {
     "id": 16,
-    "banda": "ACDC",
-    "img": "acdc.jpg",
+    "banda": "FOO",
+    "img": "Des4.webp",
     "category": "ropa",
     "stock": 28,
-    "description": "AC/DC - Poster de regalo (envios gratis a partir de S/. 70)",
+    "description": "Foo Fighters Shirt",
     "precio": 48.20
   },
   {
@@ -149,17 +149,17 @@
     "img": "thestrokes.webp",
     "category": "ropa",
     "stock": 12,
-    "description": "The strokes - Poster de regalo (envios gratis a partir de S/. 70)",
+    "description": "The strokes - Cap",
     "precio": 33.20
   },
   {
     "id": 18,
-    "banda": "MISFITS",
-    "img": "misfits.jpg",
+    "banda": "GREENDAY",
+    "img": "Des5.webp",
     "category": "ropa",
     "stock": 29,
-    "description": "Misfits - Poster de regalo (envios gratis a partir de S/. 70)",
-    "precio": 48.20
+    "description": "Gree Day shirt chaket",
+    "precio": 148.20
   },
   {
     "id": 19,
@@ -167,7 +167,7 @@
     "img": "C4.webp",
     "stock": 5,
     "category": "vinilo",
-    "description": "Sabaton - Carolus Rex (Swedish Edition) Blue/Yellow(envios gratis a partir de S/. 70)",
+    "description": "Sabaton - Carolus Rex (Swedish Edition) Blue/Yellow",
     "precio": 76.8
   },
   {
@@ -176,7 +176,7 @@
     "img": "C5.webp",
     "stock": 7,
     "category": "vinilo",
-    "description": "Dimmu Borgir - Northern Forces Over Wacken Ltd. Black/Green(envios gratis a partir de S/. 70)",
+    "description": "Dimmu Borgir - Northern Forces Over Wacken Ltd. Black/Green",
     "precio": 68.5
   },
   {
@@ -185,7 +185,7 @@
     "img": "C1.webp",
     "stock": 3,
     "category": "vinilo",
-    "description": "System of a down - Poster de regalo (envios gratis a partir de S/. 70)",
+    "description": "ANTHRAX - Poster de regalo ",
     "precio": 73.8
   },
   {
@@ -194,7 +194,7 @@
     "img": "C2.webp",
     "stock": 7,
     "category": "vinilo",
-    "description": "Nightwish - Imaginaerum Clear/Gold/White Ltd. - Splatter 2 Vinyl(envios gratis a partir de S/. 70)",
+    "description": "Nightwish - Imaginaerum Clear/Gold/White Ltd. - Splatter 2 Vinyl",
     "precio": 83.5
   },
   {
@@ -203,7 +203,7 @@
     "img": "CD1.webp",
     "stock": 7,
     "category": "CD",
-    "description": "Blind Guardian - Somewhere Far Beyond Revisited(envios gratis a partir de S/. 70)",
+    "description": "Blind Guardian - Somewhere Far Beyond Revisited",
     "precio": 50.8
   },
   {
@@ -212,7 +212,7 @@
     "img": "CD2.webp",
     "stock": 2,
     "category": "CD",
-    "description": "Fleshgod Apocalypse - Opera - CD- Poster de regalo (envios gratis a partir de S/. 70)",
+    "description": "Fleshgod Apocalypse - Opera - CD- Poster de regalo",
     "precio": 62.3
   },
   {
@@ -221,7 +221,7 @@
     "img": "CD3.webp",
     "stock": 11,
     "category": "CD",
-    "description": "New Edition - Wintersun - Time II - CD- Poster de regalo (envios gratis a partir de S/. 70)",
+    "description": "New Edition - Wintersun - Time II - CD- Poster de regalo",
     "precio": 55.8
   },
   {
@@ -230,7 +230,7 @@
     "img": "CD4.webp",
     "stock": 11,
     "category": "CD",
-    "description": "Marilyn Manson - One Assassination Under God(envios gratis a partir de S/. 70)",
+    "description": "Marilyn Manson - One Assassination Under God",
     "precio": 90.8
   },
   {
@@ -239,7 +239,7 @@
     "img": "CD-green.webp",
     "stock": 11,
     "category": "CD",
-    "description": "Green day - One Assassination Under God(envios gratis a partir de S/. 70)",
+    "description": "Green day - One Assassination Under God",
     "precio": 63.8
   },
   {
@@ -248,7 +248,7 @@
     "img": "CD-metallica.png",
     "stock": 16,
     "category": "CD",
-    "description": "Metallica - One Assassination Under God(envios gratis a partir de S/. 70)",
+    "description": "Metallica - One Assassination Under God",
     "precio": 72.8
   },
   {
@@ -257,7 +257,7 @@
     "img": "anthrax.webp",
     "category": "ropa",
     "stock": 11,
-    "description": "Anthrax - Poster de regalo (envios gratis a partir de S/. 70)",
+    "description": "Anthrax - Poster de regalo",
     "precio": 58.20
   },
   {
@@ -266,7 +266,7 @@
     "img": "CD-skillet.webp",
     "category": "CD",
     "stock": 18,
-    "description": "Skillet - Poster de regalo (envios gratis a partir de S/. 70)",
+    "description": "Skillet - Poster de regalo",
     "precio": 62.50
   },
   {
@@ -275,7 +275,7 @@
     "img": "CD-soad.webp",
     "category": "CD",
     "stock": 8,
-    "description": "System of a down - Poster de regalo (envios gratis a partir de S/. 70)",
+    "description": "System of a down - Poster de regalo",
     "precio": 75.90
   },
   {
@@ -284,16 +284,16 @@
     "img": "CD-acdc.webp",
     "category": "CD",
     "stock": 13,
-    "description": "AC/DC - Poster de regalo (envios gratis a partir de S/. 70)",
+    "description": "AC/DC - Poster de regalo",
     "precio": 49.90
   },
   {
     "id": 33,
     "banda": "THECURE",
-    "img": "polo-thecure.webp",
+    "img": "cure1.jpg",
     "category": "ropa",
     "stock": 32,
-    "description": "The cure - Poster de regalo (envios gratis a partir de S/. 70)",
+    "description": "Shows Of A Lost World North America Tour",
     "precio": 52.30
   },
   {
@@ -302,7 +302,389 @@
     "img": "CD-blink.jpg",
     "category": "CD",
     "stock": 10,
-    "description": "Blink 182 - Poster de regalo (envios gratis a partir de S/. 70)",
+    "description": "Blink 182 - Poster de regalo",
     "precio": 68.70
+  },
+  {
+    "id": 35,
+    "banda": "BLINK182",
+    "img": "blink1.webp",
+    "category": "ropa",
+    "stock": 10,
+    "description": "One More Time Photo T-Shirt",
+    "precio": 100.70
+  },
+  {
+    "id": 36,
+    "banda": "BLINK182",
+    "img": "blink3.webp",
+    "category": "ropa",
+    "stock": 10,
+    "description": "Middle Finger Jacket",
+    "precio": 200.70
+  },
+  {
+    "id": 37,
+    "banda": "THECURE",
+    "img": "cure2.jpg",
+    "category": "ropa",
+    "stock": 30,
+    "description": "Shows Of A Lost World Band Tee",
+    "precio": 52.90
+  },
+  {
+    "id": 38,
+    "banda": "THECURE",
+    "img": "cure3.jpg",
+    "category": "ropa",
+    "stock": 5,
+    "description": "Shows Of A Lost World Band Hoodie",
+    "precio": 50.90
+  },
+  {
+    "id": 39,
+    "banda": "THECURE",
+    "img": "cure4.jpg",
+    "category": "ropa",
+    "stock": 3,
+    "description": "Shows Of A Lost World Moon Tee",
+    "precio": 50.90
+  },
+  {
+    "id": 40,
+    "banda": "THECURE",
+    "img": "cureC.jpg",
+    "category": "CD",
+    "stock": 3,
+    "description": "SONGS OF A LOST WORLD DELUXE CD",
+    "precio": 100.90
+  },
+  {
+    "id": 41,
+    "banda": "THECURE",
+    "img": "cure5.png",
+    "category": "ropa",
+    "stock": 10,
+    "description": "SONGS OF A LOST WORLD BEANIE",
+    "precio": 20.90
+  },
+  {
+    "id": 42,
+    "banda": "DEFTONES",
+    "img": "defC.jpg",
+    "category": "CD",
+    "stock": 15,
+    "description": "Around the Fur Vinyl",
+    "precio": 145.70
+  },
+  {
+    "id": 43,
+    "banda": "THESTROKES",
+    "img": "stro1.webp",
+    "category": "ropa",
+    "stock": 12,
+    "description": "The Strokes Logo Hoodie - Blu",
+    "precio": 133.20
+  },
+  {
+    "id": 44,
+    "banda": "THESTROKES",
+    "img": "stro2.webp",
+    "category": "ropa",
+    "stock": 12,
+    "description": "Chrome Magna Logo Tee",
+    "precio": 93.20
+  },
+  {
+    "id": 45,
+    "banda": "THESTROKES",
+    "img": "stro3.webp",
+    "category": "ropa",
+    "stock": 10,
+    "description": "The Strokes Muay Thai Shorts",
+    "precio": 43.20
+  },
+  {
+    "id": 46,
+    "banda": "THESTROKES",
+    "img": "stro4.webp",
+    "category": "ropa",
+    "stock": 40,
+    "description": "Bass Clef Tee",
+    "precio": 63.20
+  },
+  {
+    "id": 47,
+    "banda": "NIRVANA",
+    "img": "nir1.jpg",
+    "category": "ropa",
+    "stock": 30,
+    "description": "Nirvana Yellow Raincoat",
+    "precio": 223.20
+  },
+  {
+    "id": 48,
+    "banda": "NIRVANA",
+    "img": "nir2.jpg",
+    "category": "ropa",
+    "stock": 20,
+    "description": "Black Nirvana Windbreaker",
+    "precio": 123.20
+  },
+  {
+    "id": 49,
+    "banda": "NIRVANA",
+    "img": "nir3.jpg",
+    "category": "ropa",
+    "stock": 10,
+    "description": "Nirvana Charcoal Grey T-Shirt",
+    "precio": 53.20
+  },
+  {
+    "id": 50,
+    "banda": "WEEZER",
+    "img": "we1.webp",
+    "category": "ropa",
+    "stock": 10,
+    "description": "Blue Album Crewneck",
+    "precio": 83.20
+  },
+  {
+    "id": 51,
+    "banda": "Coll",
+    "img": "Car1.webp",
+    "category": "DS",
+    "stock": 10,
+    "description": "Iron Maiden Pack Shirt",
+    "precio": 283.20
+  },
+  {
+    "id": 52,
+    "banda": "Coll",
+    "img": "Car2.webp",
+    "category": "DS",
+    "stock": 20,
+    "description": "Sabaton - The Tour To End All Tours",
+    "precio": 83.20
+  },
+  {
+    "id": 53,
+    "banda": "Coll",
+    "img": "Car3.webp",
+    "category": "DS",
+    "stock": 10,
+    "description": "Machine Head - Bloodstone & Diamonds",
+    "precio": 93.20
+  },
+  {
+    "id": 54,
+    "banda": "Coll",
+    "img": "Car4.webp",
+    "category": "DS",
+    "stock": 13,
+    "description": "Hammerfall Duo pack",
+    "precio": 133.20
+  },
+  {
+    "id": 55,
+    "banda": "Coll",
+    "img": "Car5.webp",
+    "category": "DS",
+    "stock": 13,
+    "description": "Exodus MegaPack",
+    "precio": 173.20
+  },
+  {
+    "id": 56,
+    "banda": "Coll",
+    "img": "Car6.webp",
+    "category": "DS",
+    "stock": 16,
+    "description": "Vader - Tibi Et Igni Ltd. Transparent",
+    "precio": 73.20
+  },
+  {
+    "id": 57,
+    "banda": "Coll",
+    "img": "Car7.webp",
+    "category": "DS",
+    "stock": 11,
+    "description": "Wintersun - Wintersun Ltd. Transparent",
+    "precio": 83.20
+  },
+  {
+    "id": 58,
+    "banda": "Coll",
+    "img": "Car8.webp",
+    "category": "DS",
+    "stock": 21,
+    "description": "Battle Beast Hyper Pack",
+    "precio": 299.90
+  },
+  {
+    "id": 59,
+    "banda": "Coll",
+    "img": "Car9.webp",
+    "category": "DS",
+    "stock": 11,
+    "description": "Ghost Bath Super Pack",
+    "precio": 299.90
+  },
+  {
+    "id": 60,
+    "banda": "DEFTONESN",
+    "img": "defN.webp",
+    "category": "ropa",
+    "stock": 11,
+    "description": "Reaper Crop T-Shirt",
+    "precio": 49.90
+  },
+  {
+    "id": 61,
+    "banda": "DEFTONESN",
+    "img": "defN2.webp",
+    "category": "ropa",
+    "stock": 21,
+    "description": "Script Logo Crop Tank Top",
+    "precio": 39.90
+  },
+  {
+    "id": 62,
+    "banda": "DEFTONESN",
+    "img": "defN3.webp",
+    "category": "ropa",
+    "stock": 5,
+    "description": "Arch Calligraphy Logo Tank Top",
+    "precio": 49.90
+  },
+  {
+    "id": 63,
+    "banda": "GREENDAYN",
+    "img": "gr1.webp",
+    "category": "ropa",
+    "stock": 5,
+    "description": "American Idiot XX Custom Cardigan",
+    "precio": 149.90
+  },
+  {
+    "id": 64,
+    "banda": "GREENDAYN",
+    "img": "gr2.webp",
+    "category": "ropa",
+    "stock": 15,
+    "description": "Dickies x Green Day Dookie Work Jacket",
+    "precio": 149.90
+  },
+  {
+    "id": 65,
+    "banda": "GREENDAYN",
+    "img": "gr3.webp",
+    "category": "ropa",
+    "stock": 25,
+    "description": "Lady Liberty Hoodie",
+    "precio": 149.90
+  },
+  {
+    "id": 66,
+    "banda": "ACDC",
+    "img": "acdcz.png",
+    "category": "ropa",
+    "stock": 15,
+    "description": "Pure AC/DC - Shoes for Men | DC Shoes",
+    "precio": 249.90
+  },
+  {
+    "id": 67,
+    "banda": "THECURE-GUITAR",
+    "img": "g1.png",
+    "category": "guitar",
+    "stock": 5,
+    "description": "Guitarra eléctrica Fender Gold Foil",
+    "precio": 6999.90
+  },
+  {
+    "id": 68,
+    "banda": "THECURE-GUITAR",
+    "img": "g2.png",
+    "category": "guitar",
+    "stock": 5,
+    "description": "Guitarra Eléctrica Squier Classic Vibe 60's",
+    "precio": 5999.90
+  },
+  {
+    "id": 69,
+    "banda": "GREENDAY",
+    "img": "ropaN.webp",
+    "category": "ROPAN",
+    "stock": 5,
+    "description": "American Idiot Custom Snapback ",
+    "precio": 59.90
+  },
+  {
+    "id": 70,
+    "banda": "GREENDAY",
+    "img": "ropaN1.webp",
+    "category": "ROPAN",
+    "stock": 6,
+    "description": "Film Strip Dog T-Shirt",
+    "precio": 99.90
+  },
+  {
+    "id": 71,
+    "banda": "GREENDAY",
+    "img": "ropaN2.webp",
+    "category": "ROPAN",
+    "stock": 19,
+    "description": "Bulging Eye Guy T-Shirt",
+    "precio": 99.90
+  },
+  {
+    "id": 72,
+    "banda": "GREENDAY",
+    "img": "ropaN3.webp",
+    "category": "ROPAN",
+    "stock": 19,
+    "description": "Lady Liberty Protest T-Shirt",
+    "precio": 99.90
+  },
+  {
+    "id": 73,
+    "banda": "GREENDAY",
+    "img": "cdN1.webp",
+    "category": "CDN",
+    "stock": 19,
+    "description": "American Idiot (20th Anniversary)",
+    "precio": 199.90
+  },
+  {
+    "id": 74,
+    "banda": "GREENDAY",
+    "img": "cdN2.webp",
+    "category": "CDN",
+    "stock": 9,
+    "description": "Warning Green Vinyl LP",
+    "precio": 99.90
+  },
+  {
+    "id": 75,
+    "banda": "DEFTONES",
+    "img": "cdN3.webp",
+    "category": "CDN",
+    "stock": 10,
+    "description": "B-Sides & Rarities CD",
+    "precio": 59.90
+  },
+  {
+    "id": 76,
+    "banda": "DEFTONES",
+    "img": "cdN4.webp",
+    "category": "CDN",
+    "stock": 20,
+    "description": "Deftones 20th Anniversary Limited Edition Ruby",
+    "precio": 159.90
   }
+
+
+  
+  
 ]

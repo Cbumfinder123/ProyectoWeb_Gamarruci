@@ -1,0 +1,72 @@
+.carouselN {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+    height: 400px;
+    overflow: hidden;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 0 auto;
+  }
+  
+  .slideN {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    animation: fade 1s ease-in-out;
+  }
+  
+  .imageN {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    transition: transform 0.3s, box-shadow 0.3s;
+    object-fit: cover;
+    cursor: pointer;
+  }
+  
+  .imageN:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+  }
+  
+  .indicatorsN {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    bottom: 10px;
+    width: 100%;
+    z-index: 5;
+  }
+  
+  .indicatorN {
+    width: 30px;
+    height: 3px;
+    margin: 0 5px;
+    background-color: rgba(255, 255, 255, 0.5);
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .indicatorN.active {
+    background-color: crimson;
+  }
+  
+    @media (max-width: 768px) {
+    .carouselN {
+      height: 100px;
+    }
+  
+    .imageN {
+      width: 100%;
+      height: auto;
+    }
+  }
+  

@@ -1,41 +1,67 @@
-import { Link, useNavigate } from "react-router-dom"
-import "./User.css"
-import { useState } from "react"
+import { useState } from "react";
+import { Link, useNavigate } from "react-router-dom";
+import axios from "axios";
+import "./User.css";
 
 const User = () => {
+  document.title = "Gamarucci | Login";
+  const [credentials, setCredentials] = useState({
+    email: '',
+    password: ''
+  });
+  const navigate = useNavigate();
 
-  document.title = "Gamarucci | Login"
+  const handleChange = (e) => {
+    const { name, value } = e.target;
+    setCredentials({
+      ...credentials,
+      [name]: value
+    });
+  };
 
-  const [user, setUser] = useState("")
-  const [password, setPassword] = useState("")
-
-  // USANDO EL HOOK USE NAVIGATE PARA REDIRECCIONAR
-  const navigate = useNavigate()
-
-  const login = () => {
-
-    let userArr = {
-      username: user,
-      passworduser: password
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+    try {
+      const response = await axios.post('http://localhost:3001/login', credentials);
+      alert('Inicio de sesión exitoso');
+      localStorage.setItem('user', JSON.stringify(response.data.user));
+      window.dispatchEvent(new Event("storage"));
+      navigate('/');
+    } catch (error) {
+      console.error('Error al iniciar sesión:', error);
+      alert('Error al iniciar sesión');
     }
+  };
 
-    // CREA EL OBJETO USER Y LO AÑADE AL LOCALSTORAGE
-    localStorage.setItem("user", JSON.stringify(userArr))
-
-    navigate("/")
-  }
-
-  return (
-    <div>
-      <form action="">
-        <h2>Login</h2>
-        <input type="text" placeholder="Ingrese correo" onChange={(e) => setUser(e.target.value)} required/>
-        <input type="password" placeholder="Contraseña" onChange={(e) => setPassword(e.target.value)} required/>
-        <input type="submit" value="Ingresar" className="btn btn-dark" onClick={login}/>
-        <Link to={"/register"}>Crear cuenta</Link>
+ return (
+    <div className="user-containerU">
+      <form onSubmit={handleSubmit} className="formU">
+        <h2 className="titleU">Login</h2>
+        <input
+          type="email"
+          name="email"
+          placeholder="Ingrese correo"
+          onChange={handleChange}
+          className="inputU"
+          required
+        />
+        <input
+          type="password"
+          name="password"
+          placeholder="Contraseña"
+          onChange={handleChange}
+          className="inputU"
+          required
+        />
+        <input
+          type="submit"
+          value="Ingresar"
+          className="btn btn-dark buttonU"
+        />
+        <Link to="/register" className="linkU">Crear cuenta</Link>
       </form>
     </div>
-  )
-}
+  );
+};
 
-export default User
+export default User;

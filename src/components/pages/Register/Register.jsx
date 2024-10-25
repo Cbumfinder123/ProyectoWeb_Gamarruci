@@ -1,24 +1,93 @@
+import React, { useState } from 'react';
+import axios from 'axios';
+import { useNavigate } from 'react-router-dom';
+import './Register.css';
 const Register = () => {
+  document.title = "Gamarucci | Registro";
+  const navigate = useNavigate();
 
-  document.title = "Gamarucci | Registro"
+  const [userData, setUserData] = useState({
+    firstName: '',
+    lastName: '',
+    email: '',
+    password: ''
+  });
 
-  const register = () => {
+  const handleChange = (e) => {
+    const { name, value } = e.target;
+    setUserData({
+      ...userData,
+      [name]: value
+    });
+  };
 
-    console.info("registrado")
-  }
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+    try {
+      await axios.post('http://localhost:3001/register', userData);
+      alert('Usuario registrado con éxito');
+      setUserData({
+        firstName: '',
+        lastName: '',
+        email: '',
+        password: ''
+      });
+      navigate('/user');
+    } catch (error) {
+      console.error('Error al registrar usuario:', error);
+      alert('Error al registrar usuario');
+    }
+  };
 
   return (
-    <div>
-      <form action="">
-        <h2>Registro</h2>
-        <input type="text" placeholder="Nombres" required/>
-        <input type="text" placeholder="Apellidos" required/>
-        <input type="email" placeholder="Ingrese correo" required/>
-        <input type="password" placeholder="Contraseña" required/>
-        <input type="submit" value="Registrar" className="btn btn-success" onClick={register}/>
+    <div className="register-containerU">
+      <form onSubmit={handleSubmit} className="register-formU">
+        <h2 className="register-titleU">Registro</h2>
+        <input
+          type="text"
+          name="firstName"
+          placeholder="Nombres"
+          value={userData.firstName}
+          onChange={handleChange}
+          className="register-inputU"
+          required
+        />
+        <input
+          type="text"
+          name="lastName"
+          placeholder="Apellidos"
+          value={userData.lastName}
+          onChange={handleChange}
+          className="register-inputU"
+          required
+        />
+        <input
+          type="email"
+          name="email"
+          placeholder="Ingrese correo"
+          value={userData.email}
+          onChange={handleChange}
+          className="register-inputU"
+          required
+        />
+        <input
+          type="password"
+          name="password"
+          placeholder="Contraseña"
+          value={userData.password}
+          onChange={handleChange}
+          className="register-inputU"
+          required
+        />
+        <input
+          type="submit"
+          value="Registrar"
+          className="register-buttonU"
+        />
       </form>
     </div>
-  )
-}
+  );
 
-export default Register
+};
+
+export default Register;

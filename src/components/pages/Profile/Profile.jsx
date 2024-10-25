@@ -1,25 +1,31 @@
-import React from 'react'
-import { Link, useNavigate } from 'react-router-dom'
+import React from 'react';
+import { Link, useNavigate } from 'react-router-dom';
+import './Profile.css';
 
 const Profile = () => {
+  const navigate = useNavigate();
 
-  // HOOJ PARA LA NAVEGACION
-  const navigate = useNavigate()
-
-  // FUNCION PARA CERRAR SESION
   const logout = () => {
+    localStorage.removeItem("user");
+    window.dispatchEvent(new Event("storage"));
+    navigate("/");
+  };
 
-    // ELIMINA EL OBJETO USER DEL LOCALSTORAGE
-    localStorage.removeItem("user")
+  const user = JSON.parse(localStorage.getItem("user"));
 
-    navigate("/")
+  if (!user) {
+    navigate("/login");
+    return null;
   }
 
   return (
-    <div>
-      <Link className='btn btn-danger' onClick={() => logout()}>Cerrar sesion</Link>
+    <div className="profile-container">
+      <h2 className="profile-title">Perfil de Usuario</h2>
+      <p className="profile-text">Nombre: {user.firstName} {user.lastName}</p>
+      <p className="profile-text">Email: {user.email}</p>
+      <Link to="/" className="btn3-danger" onClick={logout}>Cerrar sesión</Link>
     </div>
-  )
-}
+  );
+};
 
-export default Profile
+export default Profile;
